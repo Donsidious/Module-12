@@ -43,33 +43,75 @@ This application runs on Node.js (v16.19.1) and uses a combination of JavaScript
 
 ## Installation
 
-1. Begin by cloning the repository using the following command:
+1. **Clone the repository:**
    ```
    git clone https://github.com/Donsidious/Module-12
    ```
 
-2. Open the project in Visual Studio Code. If you don't have Visual Studio Code installed, make sure to install it.
+2. **Open the project in Visual Studio Code.**
+   - If you don't have Visual Studio Code installed, make sure to install it.
 
-3. In your terminal, install Node.js version 16. If you're using Homebrew, you can use the command `brew install node@16`. Please note that the installation process may vary, so consult the documentation if needed.
+3. **Install Node.js version 16:**
+   - For Homebrew users:
+     ```
+     brew install node@16
+     ```
+   - Note: The installation process may vary; consult the documentation if needed.
 
-4. After successfully installing Node.js version 16, initialize your project by running the command `npm init -y`. This will create a `package.json` file to manage your project's dependencies.
+4. **Initialize your project:**
+   ```
+   npm init -y
+   ```
+   - This creates a `package.json` file to manage dependencies.
 
-5. Next, use the terminal to install the required dependencies for this application. Developers can install each dependency separately using the following commands:
-   - For Sequelize: `npm i sequelize`
-   - For mysql2: `npm i mysql2`
-   - For dotenv: `npm i dotenv`
-   - For inquirer (version 8.2.4): `npm i inquirer@8.2.4`
-   - For chalk: `npm i chalk`
+5. **Install required dependencies:**
+   - For Sequelize:
+     ```
+     npm i sequelize
+     ```
+   - For mysql2:
+     ```
+     npm i mysql2
+     ```
+   - For dotenv:
+     ```
+     npm i dotenv
+     ```
+   - For inquirer (version 8.2.4):
+     ```
+     npm i inquirer@8.2.4
+     ```
+   - For chalk:
+     ```
+     npm i chalk
+     ```
 
-6. Once all dependencies are installed, it's time to create the database. Navigate to the `db` directory, which contains the `schema.sql` file. Open a MySQL shell and run the command `source schema.sql` to create the database structure.
+6. **Create the database:**
+   - Navigate to the `db` directory.
+   - Open a MySQL shell and run:
+     ```
+     source schema.sql
+     ```
+   - This command creates the database structure.
 
-7. With the database created, proceed to seed it, which will also generate the model structure for the tables. Navigate back to the root directory and run the appropriate seed files using commands like:
-   - `node ./seeds/departments`
-   - `node ./seeds/roles`
-   - `node ./seeds/employees`
+7. **Seed the database and generate model structure:**
+   - To seed departments:
+     ```
+     node ./seeds/departments
+     ```
+   - To seed roles:
+     ```
+     node ./seeds/roles
+     ```
+   - To seed employees:
+     ```
+     node ./seeds/employees
+     ```
 
-8. After successfully seeding the database, you can run the application by executing `npm start` from the root directory. This command will start the application.
-
+8. **Run the application:**
+   ```
+   npm start
+   ```
 ## Features
 
 This application offers various capabilities, enabling users to effortlessly oversee and control their company's departments, roles, and employees, all from the command line. It leverages sequelize, enabling direct database interaction through JavaScript, resulting in a dynamically interactive user experience.
