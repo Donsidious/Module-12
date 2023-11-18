@@ -29,13 +29,12 @@ https://drive.google.com/file/d/1kvshoJRktlju2bvSrwW8ScXDrsyoUJVA/view
 
 ## Screenshots
 
-![Screenshot1-week-12-challenge](https://user-images.githubusercontent.com/120127903/235738338-75c97105-7ef1-40f5-b00e-b0951f1d504d.png)
 
-![Screenshot2-week-12-challenge](https://user-images.githubusercontent.com/120127903/235738376-e099a758-b20e-4a72-b56c-9bc58472d10f.png)
+![Screenshot1-week-12-challenge](https://user-images.githubusercontent.com/120127903/235738376-e099a758-b20e-4a72-b56c-9bc58472d10f.png)
 
-![Screenshot3-week-12-challenge](https://user-images.githubusercontent.com/120127903/235738400-31819eff-205e-4154-81df-61d214a3af13.png)
+![Screenshot2-week-12-challenge](https://user-images.githubusercontent.com/120127903/235738400-31819eff-205e-4154-81df-61d214a3af13.png)
 
-![Screenshot4-week-12-challenge](https://user-images.githubusercontent.com/120127903/235738416-1289849b-4e79-4b97-864d-85c88a980095.png)
+![Screenshot3-week-12-challenge](https://user-images.githubusercontent.com/120127903/235738416-1289849b-4e79-4b97-864d-85c88a980095.png)
 
 ## Technologies Used
 
